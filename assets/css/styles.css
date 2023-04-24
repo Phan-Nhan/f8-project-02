@@ -13,7 +13,7 @@ body {
 /* ==== common ==== */
 .main-content {
     width: 1170px;
-    max-width: calc(100% - 40px);
+    max-width: calc(100% - 12px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -299,11 +299,13 @@ body {
 
 /* popular bottom */
 
-.popular-bottom {
+.popular-bottom  {
     display: flex;
-    flex: 1;
     gap: 30px;
     margin-top: 55px;
+}
+.popular-bottom .list-item {
+    flex: 1;
 }
 .popular-bottom .thumb {
     width: 100%;
